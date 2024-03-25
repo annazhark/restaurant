@@ -1,7 +1,7 @@
 /* open-sans-regular - cyrillic */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/open-sans-v40-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
@@ -9,7 +9,7 @@
   /* open-sans-italic - cyrillic */
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-weight: 400;
     src: url('../fonts/open-sans-v40-cyrillic-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
@@ -17,7 +17,7 @@
   /* open-sans-600 - cyrillic */
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     src: url('../fonts/open-sans-v40-cyrillic-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
@@ -25,16 +25,25 @@
   /* open-sans-700 - cyrillic */
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url('../fonts/open-sans-v40-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
+  /* tinos-regular - cyrillic */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Tinos',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/tinos-v24-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
 
 body {
     margin: 0;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
 }
 
 .container {
@@ -64,7 +73,7 @@ body {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 19px;
@@ -130,5 +139,84 @@ body {
 }
 
 .button:hover {
+    background-color: rgb(182, 86, 8);
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    color: rgb(214, 126, 53);
+    font-family: 'Tinos', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57px;
+    text-align: center;
+    position: absolute;
+    margin-top: 204px;
+    margin-bottom: 15px;
+}
+
+.header-subtitle {
+    color: rgb(214, 126, 53);
+    font-family: 'Tinos',sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: left;
+    
+}
+
+.suptitle-position {
+    position: relative;
+}
+
+.header-suptitle {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 70px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: -130px;
+    left: 166px;
+}
+
+.header-suptitle::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 30px;
+    left: -70px;
+}
+
+.header-suptitle::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 30px;
+    left: 180px;
+}
+
+.header-button {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    background: rgb(255, 116, 0);
+    padding: 14px 28px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: color 0.3s linear;
+
+
+}
+
+.header-button:hover {
     background-color: rgb(182, 86, 8);
 }
