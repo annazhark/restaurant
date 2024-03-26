@@ -266,6 +266,10 @@ body {
     font-weight: 400;
 }
 
+.history {
+    padding-bottom: 112px;
+}
+
 .history-title {
     font-family: 'Tinos',sans-serif;
     font-size: 54px;
@@ -334,7 +338,6 @@ body {
     z-index: 2;
     top: 165px;
     left: -278px;
-    box-shadow: 3px 80px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .images-3 {
@@ -349,4 +352,50 @@ body {
     z-index: -1;
     top: 0;
     left: -281px;
+}
+
+
+.black-block {
+    background-image: url(/img/history-img/bg.jpeg);
+    max-height: 357px;
+    font-family: 'Tinos',sans-serif;
+    margin-top: 122px;
+
+}
+
+.left-title {
+    color: rgb(214, 126, 52);
+    font-size: 52px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 104px;
+
+}
+
+.right-btn {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(255, 116, 0);
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    transition: color 0.3s linear;
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
