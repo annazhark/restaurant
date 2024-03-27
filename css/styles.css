@@ -360,6 +360,7 @@ body {
     max-height: 357px;
     font-family: 'Tinos',sans-serif;
     margin-top: 122px;
+    margin-bottom: 124px;
 
 }
 
@@ -398,4 +399,36 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.dishes-title {
+    font-family: 'Tinos',sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 139px;
+}
+
+.dishes-title span {
+    color: rgb(214, 126, 52);
+}
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+
+.burger-item {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    margin-bottom: 29px;
+    margin-left: 30px;
+}
+
+.burger-text {
+    color: rgb(0, 0, 0);
+    font-family: 'Tinos',sans-serif;
+    font-size: 26px;
+    font-weight: 400;
 }
