@@ -519,3 +519,51 @@ body {
 .menu-btn:hover {
     background-color: rgb(182, 86, 8);
 }
+
+.comment-text {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 104px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.comment {
+    background: rgb(230, 229, 229);
+}
+
+.comment-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 17px;
+    
+}
+.comment-img {
+}
+.comment-type {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 9px;
+
+}
+.comment-name {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 26px;
+}
+
+.comment-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    padding-bottom: 108px;
+}
