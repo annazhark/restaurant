@@ -432,3 +432,90 @@ body {
     font-size: 26px;
     font-weight: 400;
 }
+
+.menu {
+    background-image: url(/img/menu_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.menu-title {
+    color: rgb(255, 255, 255);
+    font-family: 'Tinos',sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    padding-top: 98px;
+    text-align: center;
+    padding-bottom: 138px;
+
+}
+.menu-items {
+    display: flex;
+    gap: 30px;
+
+}
+.menu-item {
+    background-color: #fff;
+    text-align: center;
+    width: 350px;
+    padding-bottom: 30px;
+}
+
+.menu-img {
+   padding-top: 80px;
+   padding-bottom: 20px;
+}
+
+.menu-image {
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    bottom: 22px;
+    right: 58px;
+}
+
+.price-420 {
+    position: absolute;
+    bottom: 54px;
+    right: 83px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 400;
+ 
+}
+
+.menu-text {
+    color: rgb(0, 0, 0);
+    font-family: 'Tinos',sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 17px;
+}
+
+.menu-subtext {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.menu-button {
+}
+
+.menu-btn {
+    background-color: rgb(214, 126, 52);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 14px 68px;
+    text-decoration: none;
+}
+
+.menu-btn:hover {
+    background-color: rgb(182, 86, 8);
+}
